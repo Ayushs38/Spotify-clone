@@ -1,77 +1,25 @@
-# Full Stack Spotify Clone with Next.js 13.4 App Router: React, Tailwind, Supabase, PostgreSQL, Stripe
+🎵 This project is a 🚀 Full Stack Spotify Clone 🎧 built using Next.js 13.4, with an impressive array of modern technologies and functionalities. Here's what it offers:
 
-![Copy of Copy of Fullstack Twitter Clone](https://github.com/AntonioErdeljac/next13-spotify/assets/23248726/2722c7bd-2d8f-44a9-97b9-f2711a8d8b64)
+🎵 **Song Upload:** Users can easily upload their favorite songs to the platform.
 
-For DEMO, use [Stripe Testing Cards](https://stripe.com/docs/testing)
+🔒 **Authentication:** The app supports credential authentication via Supabase and Github, ensuring secure access for users.
 
-This is a repository for a Full Stack Spotify Clone with Next.js 13.4 App Router: React, Tailwind, Supabase, PostgreSQL, Stripe
+💳 **Stripe Integration:** Seamlessly integrated with Stripe for payment processing, enabling hassle-free transactions and recurring subscriptions.
 
-[VIDEO TUTORIAL](https://youtu.be/2aeMRB8LL4o)
+🎨 **Sleek UI Design:** The app boasts a visually stunning UI designed with Tailwind CSS, providing a smooth and visually appealing user experience.
 
-Key Features:
+📱 **Responsive Design:** Fully responsive across all devices, so users can enjoy their favorite tunes on any screen.
 
-- Song upload
-- Stripe integration
-- Tailwind design for sleek UI
-- Tailwind animations and transition effects
-- Full responsiveness for all devices
-- Credential authentication with Supabase
-- Github authentication integration
-- File and image upload using Supabase storage
-- Client form validation and handling using react-hook-form
-- Server error handling with react-toast
-- Play song audio
-- Favorites system
-- Playlists / Liked songs system
-- Advanced Player component
-- Stripe recurring payment integration
-- How to write POST, GET, and DELETE routes in route handlers (app/api)
-- How to fetch data in server React components by directly accessing the database (WITHOUT API! like Magic!)
-- Handling relations between Server and Child components in a real-time environment
-- Cancelling Stripe subscriptions
+✅ **Form Validation & Error Handling:** Client-side form validation using react-hook-form and server error handling with react-toast for smooth data management.
 
-### Prerequisites
+🎧 **Advanced Player Component:** Equipped with an advanced audio player, users can enjoy uninterrupted playback.
 
-**Node version 14.x**
+❤️ **Favorites & Playlists:** Users can create playlists and mark songs as favorites for easy access to their preferred tracks.
 
-### Cloning the repository
+📊 **Real-time Updates:** The app excels in handling real-time data updates between server and child components, ensuring a seamless user experience.
 
-```shell
-git clone https://github.com/AntonioErdeljac/next13-spotify.git
-```
+🗄️ **Direct Database Access:** Fetching data in server React components directly from the database, eliminating the need for an API.
 
-### Install packages
+🔇 **Cancel Subscriptions:** Users can easily cancel their Stripe subscriptions with a simple process.
 
-```shell
-npm i
-```
-
-### Setup .env file
-
-
-```js
-NEXT_PUBLIC_SUPABASE_URL=
-NEXT_PUBLIC_SUPABASE_ANON_KEY=
-SUPABASE_SERVICE_ROLE_KEY=
-
-NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY=
-STRIPE_SECRET_KEY=
-STRIPE_WEBHOOK_SECRET=
-```
-
-### Add SQL Tables
-Use `database.sql` file, create songs and liked_songs table (there is a video tutorial)
-
-### Start the app
-
-```shell
-npm run dev
-```
-
-## Available commands
-
-Running commands with npm `npm run [command]`
-
-| command         | description                              |
-| :-------------- | :--------------------------------------- |
-| `dev`           | Starts a development instance of the app |
+This project truly represents the best of modern web development, providing a delightful and feature-rich music streaming experience for users. 🎶🎉
